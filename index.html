@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CoffeeGarden - Ialoveni</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Style.css (ADĂUGAT DE TINE) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <div class="logo">
+        <i class="fas fa-mug-hot"></i>
+        <span>CoffeeGarden</span>
+      </div>
+      <nav>
+        <button class="nav-btn active" data-tab="menu">
+          <i class="fas fa-utensils"></i> Meniu
+        </button>
+        <button class="nav-btn" data-tab="about">
+          <i class="fas fa-leaf"></i> Despre Noi
+        </button>
+        <button class="nav-btn" data-tab="contact">
+          <i class="fas fa-map-marker-alt"></i> Contact
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>Bun venit la CoffeeGarden</h2>
+      <p>Cafea artizanala, gustări casnice și o atmosferă caldă în inima orașului</p>
+      <div class="hero-info">
+        <div>
+          <i class="fas fa-clock"></i>
+          <span>Deschis: 07:30 - 19:30</span>
+        </div>
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Str. Alexandru cel Bun 92, Ialoveni</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="container">
+    <!-- Menu Tab -->
+    <div id="menu" class="tab-content active">
+      <h2 class="section-title"><strong>Meniu</strong></h2>
+
+      <!-- Cafea Section -->
+      <section class="menu-section">
+        <h3><i class="fas fa-coffee"></i><strong>Cafea Premium</strong></h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/8B4513/FFFFFF?text=Espresso" alt="Espresso">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Espresso</h4>
+                <span class="menu-item-price">25 MDL</span>
+              </div>
+              <p></p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/654321/FFFFFF?text=Americano" alt="Americano">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Americano</h4>
+                <span class="menu-item-price">30 MDL</span>
+              </div>
+              <p>Espresso diluat cu apă caldă</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/D2B48C/000000?text=Cappuccino" alt="Cappuccino">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Cappuccino</h4>
+                <span class="menu-item-price">45 MDL</span>
+              </div>
+              <p>Espresso cu lapte aburit și spumă</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/F5DEB3/000000?text=Latte" alt="Latte">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Latte</h4>
+                <span class="menu-item-price">50 MDL</span>
+              </div>
+              <p>Espresso cu mult lapte aburit</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/8B4513/FFFFFF?text=Mocha" alt="Mocha">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Mocha</h4>
+                <span class="menu-item-price">55 MDL</span>
+              </div>
+              <p>Espresso cu ciocolată și lapte</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/D2B48C/000000?text=Flat+White" alt="Flat White">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Flat White</h4>
+                <span class="menu-item-price">48 MDL</span>
+              </div>
+              <p>Espresso cu lapte fin aburit</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gustări Section -->
+      <section class="menu-section">
+        <h3><i class="fas fa-utensils"></i> <strong>Gustări & Deserturi</strong></h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/DAA520/000000?text=Croissant" alt="Croissant">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Croissant</h4>
+                <span class="menu-item-price">35 MDL</span>
+              </div>
+              <p>Croissant clasic cu unt</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/8B4513/FFFFFF?text=Chec" alt="Chec">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Chec</h4>
+                <span class="menu-item-price">30 MDL</span>
+              </div>
+              <p>Chec casnic cu stafide</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/F5F5DC/000000?text=Tiramisu" alt="Tiramisu">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Tiramisu</h4>
+                <span class="menu-item-price">60 MDL</span>
+              </div>
+              <p>Desert italian clasic</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/DEB887/000000?text=Placinta" alt="Plăcintă cu mere">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Plăcintă cu mere</h4>
+                <span class="menu-item-price">40 MDL</span>
+              </div>
+              <p>Plăcintă casnică cu mere</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/F4A460/000000?text=Briza" alt="Brișă cu brânză">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Brișă cu brânză</h4>
+                <span class="menu-item-price">45 MDL</span>
+              </div>
+              <p>Brișă tradițională cu brânză</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/F0E68C/000000?text=Clatite" alt="Clătite">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Clătite</h4>
+                <span class="menu-item-price">55 MDL</span>
+              </div>
+              <p>Clătite cu gem sau mure</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sucuri Section -->
+      <section class="menu-section">
+        <h3><i class="fas fa-leaf"></i> <strong>Băuturi Răcoritoare</strong></h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/FFA500/FFFFFF?text=Portocale" alt="Suc de portocale">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Suc de portocale</h4>
+                <span class="menu-item-price">40 MDL</span>
+              </div>
+              <p>Suc proaspăt presat</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/90EE90/000000?text=Mere" alt="Suc de mere">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Suc de mere</h4>
+                <span class="menu-item-price">35 MDL</span>
+              </div>
+              <p>Suc natural fără zahăr</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/98FB98/000000?text=Limonada" alt="Limonadă casnică">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Limonadă casnică</h4>
+                <span class="menu-item-price">30 MDL</span>
+              </div>
+              <p>Limonadă cu mentă și lămâie</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <img src="https://placehold.co/300x200/FF69B4/FFFFFF?text=Smoothie" alt="Smoothie de fructe">
+            <div class="menu-item-content">
+              <div class="menu-item-header">
+                <h4>Smoothie de fructe</h4>
+                <span class="menu-item-price">50 MDL</span>
+              </div>
+              <p>Fructe proaspete cu iaurt</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- About Tab -->
+    <div id="about" class="tab-content">
+      <h2 class="section-title">Despre Cafeneaua Noastră</h2>
+      <div class="about-content">
+        <div class="about-card">
+          <div class="hero-image">
+            <img src="https://placehold.co/800x300/8B4513/FFFFFF?text=Cafeneaua+Aroma+Interior" alt="Interior Cafenea">
+          </div>
+          <h3>Povestea Noastră</h3>
+          <p>Cafeneaua noastră a fost fondată în 2018 cu o singură misiune: să oferim cele mai bune cafele și gustări într-o atmosferă caldă și prietenoasă. Folosim doar ingrediente locale de cea mai înaltă calitate, iar cafeaua noastră este prăjită în mod artizanal pentru a vă oferi o experiență autentică.</p>
+          
+          <h3>Misiunea Noastră</h3>
+          <p>Pasarea noastră pentru cafea de calitate și serviciu excelent ne definește fiecare zi. Vrem să fim locul tău preferat pentru o pauză relaxantă sau întâlniri plăcute cu prietenii.</p>
+          
+          <div class="features">
+            <h4>Ce ne face speciali:</h4>
+            <ul>
+              <li>Cafea prăjită zilnic în mod artizanal</li>
+              <li>Ingrediente 100% locale și de sezon</li>
+              <li>Atmosferă caldă și prietenoasă</li>
+              <li>Personal antrenat și pasionat de cafea</li>
+              <li>Gustări și deserturi preparate zilnic</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Tab -->
+    <div id="contact" class="tab-content">
+      <h2 class="section-title">Contact și Locație</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Informații de Contact</h3>
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Str. Principală 123, Chișinău, Republica Moldova</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+373 69 123 456</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>contact@aroma-cafe.md</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-clock"></i>
+              <div>
+                <p>Program:</p>
+                <p>Luni - Duminică: 8:00 - 22:00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-card">
+          <h3>Vizitați-ne</h3>
+          <p>Ne aflăm în centrul orașului Chișinău, la doar câțiva pași de Piața Marii Adunări Naționale. Parcare gratuită disponibilă în spatele clădirii.</p>
+          <div class="map-placeholder">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.3988543673045!2d28.773090776693305!3d46.94498193343042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97f0035ca3ad5%3A0x9b4ac11823aefc2d!2sCoffee%20Garden!5e1!3m2!1sro!2s!4v1764087615356!5m2!1sro!2s" 
+            width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <i class="fas fa-mug-hot"></i>
+        <span>Cafeneaua Aromă</span>
+      </div>
+      <p class="footer-tagline">Cafea prăjită artizanal • Gustări casnice • Atmosferă caldă</p>
+      <p class="footer-copyright">© 2025 Cafeneaua Aromă. Toate drepturile rezervate.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Tab switching functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const navButtons = document.querySelectorAll('.nav-btn');
+      const tabContents = document.querySelectorAll('.tab-content');
+      
+      navButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons and contents
+          navButtons.forEach(btn => btn.classList.remove('active'));
+          tabContents.forEach(content => content.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          // Show corresponding content
+          const tabId = this.getAttribute('data-tab');
+          document.getElementById(tabId).classList.add('active');
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+
